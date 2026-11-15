@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap");
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #c084fc;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+} */
+
+#root {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@theme {
+  /* --------- FONTS ---------- */
+  --font-outfit: "Outfit", sans-serif;
+  --font-dmsans: "Dm Sans", sans-serif;
+}
+
+[data-theme="rise"] {
+  /* #fafbe9  #ff961f #413e3f*/
+
+  --key-bgColor: #fffff6;
+  --key-primary-dark: #ff8800;
+  --key-primary: #ff961f;
+  --key-primary-light: #ffa742;
+  --key-text: #413e3f;
+  --key-text-light: #5c5c5c;
+}
+
+[data-theme="dream"] {
+  --key-bgColor: #121136;
+  --key-primary: #522fa2;
+  --key-primary-light: #6748af;
+  --key-text: #f1f1fe;
+  --key-text-light: #ebebf5;
+}
