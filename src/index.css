@@ -36,11 +36,15 @@ body {
   /* #fafbe9  #ff961f #413e3f*/
 
   --key-bgColor: #fffff6;
+  --key-bgColorDark: #ffffd6;
+  --key-bgGrayLightColor: #f8f8f8;
+  --key-bgGrayDarkColor: #919191;
   --key-primary-dark: #ff8800;
   --key-primary: #ff961f;
   --key-primary-light: #ffa742;
   --key-text: #413e3f;
   --key-text-light: #5c5c5c;
+  --key-ring-dark: #f1f19e;
 }
 
 [data-theme="dream"] {
